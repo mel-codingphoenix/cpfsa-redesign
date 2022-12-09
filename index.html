@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPFSA Redesign</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/b1b8093786.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <a href="#"><img class="logo" src="./img/logo2.png" alt=""></a>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>About Us</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>Other</li>
+            <li class="ctn"><a href="#"></a>Donate Now</li>
+        </ul>
+        <div class="menu-btn">
+            <div class="menu"></div>
+            <div class="menu"></div>
+            <div class="menu"></div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>Who We Are</h1>
+            <hr>
+            <h2>Protecting Children, Empowering Families, Securing The Future!</h2>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="title">
+            <h1>What We Do</h1>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/1.jpg" alt="">
+                <h4>Homes For Children</h4>
+                <p>Providing homes for our children in need.
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/2.jpg" alt="">
+                <h4>Take A Child Home</h4>
+                <p>Extending love and the spirit of giving to a child in need.
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/3.jpg" alt="">
+                <h4>Programmes & Services</h4>
+                <p>Ensuring the safety, security, and wellbeing of children.
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/4.jpg" alt="">
+                <h4>Grant A Wish</h4>
+                <p>Spreading joy and Christmas cheer to a child in state care.
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Services -->
+
+    <!-- CTA Section -->
+    <section id="cta">
+        <div class="cta-content">
+            <h1>How You Can Help</h1>
+            <hr>
+            <p>There are a range of ways in which citizens can give of their time and resources to make a difference. Donations can be made in cash or kind towards: Covering medical expenses for children with illnesses...</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <!-- End of CTA -->
+
+    <!-- News Section -->
+    <div id="news">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Important News & Events</h1>
+                <hr>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/news1.jpg" alt="">
+                    <img src="./img/news2.jpg" alt="">
+                    <img src="./img/news3.jpg" alt="">
+                    <img src="./img/news4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of News -->
+
+    <!-- Footer -->
+    <footer>
+        <p><span>Corporate Office:</span> 48 Duke Street, Kingston | Phone: 8769486678 | 8769482841 | Email: info@childprotection.gov.jm</p>
+        <p><span>National Children's Registry (NCR):</span> 412 Carlton Crescent, Kingston 10 | Phone: 8769081690 | 8769082143</p>
+        <p><span>Child Abuse Report:</span> Any Branch Office | Phone: 211 | WhatsApp: 8768782882 | Email: report@childprotection.gov.jm</p>
+        <p class="copyright">Copyright © 2022 CPFSA</p>
+    </footer>
+    <!-- End of Footer -->
+    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        });
+    </script>
+</body>
+</html>
